@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family:'Roboto';
+}
+
+body {
+  position: relative;
+  background: #deeded;
+  padding: 40px 70px;
+}
+
+@media screen and (max-width: 376px)  {
+  body{
+    padding: 20px 40px;
+  }
+  
+}
